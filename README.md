@@ -1,5 +1,123 @@
 # think_harbour
 
+## English Version
+
+# Chapter 1: The Program's Path
+
+* [What is a program?](chapter1.md#what-is-a-program)
+* [The Harbour language: a compiler and xBase environment.](chapter1.md#the-harbour-language-a-compiler-and-xbase-environment)
+* [The Harbour preprocessor: macros (`#define`), file inclusion (`#include`), and user-defined commands (`#command`, `#xcommand`).](chapter1.md#the-harbour-preprocessor-macros-define-file-inclusion-include-and-user-defined-commands-command-xcommand)
+* [Your first program: "Hello, world!".](chapter1.md#your-first-program-hello-world)
+* [Problem solving and debugging.](chapter1.md#problem-solving-and-debugging)
+
+---
+
+# Chapter 2: Variables, expressions and statements
+
+* [Values and data types in Harbour: `String`, `Number`, `Logical`, `Date`, `CodeBlock`, `Symbol` and `Pointer`.](chapter2.md#values-and-data-types-in-harbour)
+* [Variables and their scope (`LOCAL`, `STATIC`, `PRIVATE`, `PUBLIC`).](chapter2.md#variables-and-their-scope)
+* [Assignment statements and operators.](chapter2.md#assignment-statements-and-operators)
+* [Expressions.](chapter2.md#expressions)
+
+---
+
+# Chapter 3: Functions
+
+* [Procedures (`PROCEDURE`) vs. Functions (`FUNCTION`).](chapter3.md#procedures-procedure-vs-functions-function)
+* [Parameters and arguments.](chapter3.md#parameters-and-arguments)
+* [Input/output (I/O) functions.](chapter3.md#inputoutput-io-functions)
+* [Utility functions (`VALTYPE()`, `PROCNAME()`).](chapter3.md#utility-functions-valtype-procname)
+
+---
+
+# Chapter 4: Control structures
+
+* [Conditional statements: `IF`, `ELSEIF`, `ELSE`, `ENDIF`, `SWITCH`.](chapter4.md#conditional-statements)
+* [Loops: `DO WHILE`, `FOR EACH`, `FOR...NEXT`.](chapter4.md#loops)
+* [Sequence handler: `BEGIN SEQUENCE...BREAK...END`.](chapter4.md#sequence-handler)
+
+---
+
+# Chapter 5: Complex data types
+
+* [Arrays: ordered lists.](chapter5.md#arrays)
+* [Hashes: key-value collections.](chapter5.md#hashes)
+* [Differences and when to use each one.](chapter5.md#differences-and-when-to-use-each-one)
+
+---
+
+# Chapter 6: Files and databases
+
+* [Low-level file handling (`FCREATE`, `FOPEN`, `FCLOSE`).](chapter6.md#low-level-file-handling)
+* [The `.dbf` file format.](chapter6.md#the-dbf-file-format)
+* [Database functions: `USE`, `APPEND BLANK`, `REPLACE`.](chapter6.md#database-functions)
+* [Indexes: how to speed up searches.](chapter6.md#indexes-how-to-speed-up-searches)
+* [Relational Database Management Systems (RDDs).](chapter6.md#relational-database-management-systems-rdds)
+
+---
+
+# Chapter 7: Classes and objects
+
+* [OOP concepts: classes, objects, variables and methods.](chapter7.md#oop-concepts-classes-objects-variables-and-methods)
+* [Creating a class in Harbour.](chapter7.md#creating-a-class-in-harbour)
+* [Object instantiation.](chapter7.md#object-instantiation)
+* [Inheritance.](chapter7.md#inheritance)
+
+---
+
+# Chapter 8: Error handling and debugging
+
+* [Types of errors: syntax, logic and runtime errors.](chapter8.md#types-of-errors)
+* [`ERROR HANDLER` and `ON ERROR` statements.](chapter8.md#traditional-error-handling-on-error)
+* [Using the debugger and tracing tools.](chapter8.md#debugging-and-tracing-tools)
+
+---
+
+# Chapter 9: User interface development
+
+* [Graphic Terminal (GT).](chapter9.md#graphic-terminal-gt-the-foundation-of-portability)
+* [Command line interfaces (CLI).](chapter9.md#command-line-interfaces-cli)
+* [`contrib` libraries for GUI: `GTWVG`, `HwGUI`, and `hbqt`.](chapter9.md#contributed-libraries-for-gui-gtwvg-hwgui-and-hbqt)
+* [Event handling and form design.](chapter9.md#event-handling-and-form-design)
+
+---
+
+# Chapter 10: Connectivity and advanced databases
+
+* [Connection to SQL databases (ODBC, MySQL, PostgreSQL, SQLite).](chapter10.md#1-connection-to-sql-databases)
+* [Using `contrib` libraries `hbmysql`, `hbpgsql`, `hbsqlit3`.](chapter10.md#2-using-contrib-libraries)
+* [SQL concepts: `SELECT`, `INSERT`, `UPDATE`, `DELETE` statements.](chapter10.md#3-fundamental-sql-concepts)
+
+---
+
+# Chapter 11: Libraries and external packages
+
+* [The `hbmk2` build system.](chapter11.md#1-the-hbmk2-build-system)
+* [Popular `contrib` libraries.](chapter11.md#2-popular-contrib-libraries)
+* [XML and JSON file manipulation.](chapter11.md#3-xml-and-json-file-manipulation)
+
+---
+
+# Chapter 12: Advanced topics
+
+* [Multithreading programming.](chapter12.md#1-multithreading-programming)
+* [Web application development with `hbhttpd`.](chapter12.md#2-web-application-development-with-hbhttpd)
+* [Using Harbour's Garbage Collector.](chapter12.md#3-using-harbours-garbage-collector-gc)
+* [Integration of C code and external libraries.](chapter12.md#4-integration-of-c-code-and-external-libraries)
+
+---
+
+# Chapter 13: The core of Harbour's virtual machine
+
+* [The compiler: the process of converting source code to P-Code.](chapter13.md#the-compiler-the-process-of-converting-source-code-to-p-code)
+* [The virtual machine (VM): Harbour's execution engine.](chapter13.md#the-virtual-machine-vm-harbours-execution-engine)
+* [P-Code: the optimized intermediate language.](chapter13.md#p-code-the-optimized-intermediate-language)
+* [The stack: managing function calls and local variables.](chapter13.md#the-stack-managing-function-calls-and-local-variables)
+
+---
+
+## Versión en Español
+
 # Capítulo 1: El camino del programa
 
 * [¿Qué es un programa?](capitulo1.md#qué-es-un-programa)
