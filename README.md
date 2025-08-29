@@ -30,11 +30,9 @@
 
 # Capítulo 4: Estructuras de control
 
-* ### Sentencias condicionales: `IF`, `ELSEIF`, `ELSE`, `ENDIF`, `SWITCH`.
-
-* ### Bucles: `DO WHILE`, `FOR EACH`, `FOR...NEXT`.
-
-* ### Manejador de secuencias: `BEGIN SEQUENCE...BREAK...END`.
+* [Sentencias condicionales: `IF`, `ELSEIF`, `ELSE`, `ENDIF`, `SWITCH`.](capitulo4.md#sentencias-condicionales-if-elseif-else-endif-switch)
+* [Bucles: `DO WHILE`, `FOR EACH`, `FOR...NEXT`.](capitulo4.md#bucles-do-while-for-each-fornext)
+* [Manejador de secuencias: `BEGIN SEQUENCE...BREAK...END`.](capitulo4.md#manejador-de-secuencias-begin-sequencebreakend)
 
 ---
 
