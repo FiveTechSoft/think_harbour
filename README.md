@@ -38,11 +38,9 @@
 
 # Capítulo 5: Tipos de datos complejos
 
-* ### Arrays: listas ordenadas.
-
-* ### Hashes: colecciones clave-valor.
-
-* ### Diferencias y cuándo usar cada uno.
+* [Arrays: listas ordenadas.](capitulo5.md#arrays-listas-ordenadas)
+* [Hashes: colecciones clave-valor.](capitulo5.md#hashes-colecciones-clave-valor)
+* [Diferencias y cuándo usar cada uno.](capitulo5.md#diferencias-y-cuándo-usar-cada-uno)
 
 ---
 
