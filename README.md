@@ -73,13 +73,10 @@
 
 # Capítulo 9: Desarrollo de interfaces de usuario
 
-* ### Graphic Terminal (GT).
-
-* ### Interfaces de línea de comandos (CLI).
-
-* ### Librerías `contrib` para GUI: `GTWVG`, `HwGUI`, y `hbqt`.
-
-* ### Manejo de eventos y diseño de formularios.
+* [Graphic Terminal (GT).](capitulo9.md#graphic-terminal-gt)
+* [Interfaces de línea de comandos (CLI).](capitulo9.md#interfaces-de-línea-de-comandos-cli)
+* [Librerías `contrib` para GUI: `GTWVG`, `HwGUI`, y `hbqt`.](capitulo9.md#librerías-contrib-para-gui-gtwvg-hwgui-y-hbqt)
+* [Manejo de eventos y diseño de formularios.](capitulo9.md#manejo-de-eventos-y-diseño-de-formularios)
 
 ---
 
