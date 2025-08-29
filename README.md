@@ -2,15 +2,11 @@
 
 # Capítulo 1: El camino del programa
 
-* ### ¿Qué es un programa?
-
-* ### El lenguaje Harbour: un compilador y entorno xBase.
-
-* ### El preprocesador de Harbour: macros (`#define`), inclusión de archivos (`#include`), y comandos definidos por el usuario (`#command`, `#xcommand`).
-
-* ### Tu primer programa: "¡Hola, mundo!".
-
-* ### Resolución de problemas y depuración.
+* [¿Qué es un programa?](capitulo1.md#qué-es-un-programa)
+* [El lenguaje Harbour: un compilador y entorno xBase.](capitulo1.md#el-lenguaje-harbour-un-compilador-y-entorno-xbase)
+* [El preprocesador de Harbour: macros (`#define`), inclusión de archivos (`#include`), y comandos definidos por el usuario (`#command`, `#xcommand`).](capitulo1.md#el-preprocesador-de-harbour-macros-inclusión-de-archivos-y-comandos-definidos-por-el-usuario)
+* [Tu primer programa: "¡Hola, mundo!".](capitulo1.md#tu-primer-programa-hola-mundo)
+* [Resolución de problemas y depuración.](capitulo1.md#resolución-de-problemas-y-depuración)
 
 ---
 
