@@ -65,11 +65,9 @@
 
 # Capítulo 8: Manejo de errores y depuración
 
-* ### Tipos de errores: de sintaxis, lógicos y de tiempo de ejecución.
-
-* ### Sentencias `ERROR HANDLER` y `ON ERROR`.
-
-* ### Uso del depurador y herramientas de rastreo.
+* [Tipos de errores: de sintaxis, lógicos y de tiempo de ejecución.](capitulo8.md#tipos-de-errores-de-sintaxis-lógicos-y-de-tiempo-de-ejecución)
+* [Sentencias `ERROR HANDLER` y `ON ERROR`.](capitulo8.md#sentencias-error-handler-y-on-error)
+* [Uso del depurador y herramientas de rastreo.](capitulo8.md#uso-del-depurador-y-herramientas-de-rastreo)
 
 ---
 
