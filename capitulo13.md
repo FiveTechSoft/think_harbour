@@ -19,12 +19,21 @@ El siguiente diagrama ilustra este flujo de compilación:
 
 ```mermaid
 graph TD;
-    A[Código Fuente .prg] --> B{Compilador Harbour};
-    B --> C[Generación de P-Code];
-    C --> D{Traducción a Código C (.c)};
-    D --> E{Compilador C (GCC, Clang, MSVC...)};
-    E -- enlaza con --> F[Librerías de Harbour (VM, RTL)];
-    E --> G[Aplicación Ejecutable (.exe)];
+    subgraph "Paso 1: Compilación con Harbour"
+        A[Código Fuente .prg] --> B{Compilador Harbour (harbour.exe)};
+        B -- "Internamente, analiza y traduce a P-Code" --> C((Traducción a C));
+        C --> D[Fichero de Código C (.c)];
+    end
+
+    subgraph "Paso 2: Compilación con un Compilador C"
+        D --> E{Compilador/Enlazador C<br>(GCC, Clang, MSVC...)};
+        F[Librerías Harbour<br>(VM, RTL, RDDs)] --> E;
+    end
+    
+    E --> G[Aplicación Ejecutable<br>(.exe, binario)];
+
+    style B fill:#e6f3ff,stroke:#333,stroke-width:2px
+    style E fill:#d5f5e3,stroke:#333,stroke-width:2px
 ```
 
 ## La máquina virtual (VM): el motor de ejecución de Harbour
