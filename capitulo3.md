@@ -1,6 +1,6 @@
 # Capítulo 3: Funciones
 
-Las funciones y procedimientos son los bloques de construcción fundamentales de cualquier programa en Harbour. Permiten organizar el código en unidades lógicas, reutilizables y fáciles de mantener. En este capítulo, exploraremos cómo definir y utilizar funciones, la diferencia entre ellas y los procedimientos, cómo manejar parámetros y algunas de las funciones de utilidad más importantes.
+Las funciones y procedimientos son los bloques de construcción fundamentales de cualquier programa en Harbour. Permiten organizar el código en unidades lógicas, reutilizables y fáciles de mantener[...]
 
 ---
 
@@ -8,7 +8,7 @@ Las funciones y procedimientos son los bloques de construcción fundamentales de
 
 En Harbour, tanto `PROCEDURE` como `FUNCTION` se utilizan para definir subrutinas. Aunque son muy similares, la principal diferencia conceptual radica en si devuelven un valor o no.
 
-*   **`FUNCTION`**: Una función es una subrutina diseñada para realizar una tarea específica y **devolver un valor** al código que la llamó. El valor se devuelve usando la sentencia `RETURN`. Si no se especifica un valor de retorno, una función devuelve `NIL` por defecto.
+*   **`FUNCTION`**: Una función es una subrutina diseñada para realizar una tarea específica y **devolver un valor** al código que la llamó. El valor se devuelve usando la sentencia `RETURN`. Si [...]
 
     ```harbour
     // Define una función que suma dos números y devuelve el resultado
@@ -23,7 +23,7 @@ En Harbour, tanto `PROCEDURE` como `FUNCTION` se utilizan para definir subrutina
     ? nMiSuma
     ```
 
-*   **`PROCEDURE`**: Un procedimiento es una subrutina que realiza una serie de acciones pero **no devuelve un valor explícito**. Su propósito es ejecutar un proceso, como imprimir en pantalla o modificar una base de datos. En la práctica, un procedimiento en Harbour es simplemente una función que no tiene una sentencia `RETURN` con un valor. Internamente, también devuelve `NIL`.
+*   **`PROCEDURE`**: Un procedimiento es una subrutina que realiza una serie de acciones pero **no devuelve un valor explícito**. Su propósito es ejecutar un proceso, como imprimir en pantalla o mod[...]
 
     ```harbour
     // Define un procedimiento para mostrar un saludo
@@ -35,7 +35,7 @@ En Harbour, tanto `PROCEDURE` como `FUNCTION` se utilizan para definir subrutina
     Saludar( "Mundo" ) // Imprimirá "¡Hola, Mundo!"
     ```
 
-**Conclusión clave:** En Harbour moderno, la distinción es principalmente semántica. Puedes usar `FUNCTION` para todo y simplemente omitir el valor de `RETURN` si no es necesario. Sin embargo, usar `PROCEDURE` puede clarificar la intención de que una subrutina no está destinada a devolver un resultado.
+**Conclusión clave:** En Harbour moderno, la distinción es principalmente semántica. Puedes usar `FUNCTION` para todo y simplemente omitir el valor de `RETURN` si no es necesario. Sin embargo, usar[...]
 
 ---
 
@@ -44,8 +44,8 @@ En Harbour, tanto `PROCEDURE` como `FUNCTION` se utilizan para definir subrutina
 Los parámetros son variables locales que reciben los valores (argumentos) pasados a una función o procedimiento.
 
 *   **Declaración**: Los parámetros se declaran en una lista separada por comas en la definición de la función.
-*   **Paso por valor (predeterminado)**: Por defecto, Harbour pasa los argumentos por valor. Esto significa que la función recibe una copia del dato original. Si la función modifica el parámetro, la variable original no se ve afectada.
-*   **Paso por referencia**: Para modificar la variable original, puedes pasarla por referencia usando el operador `@` antes del nombre de la variable al llamar a la función. Dentro de la función, el parámetro contendrá una referencia (puntero) a la variable original.
+*   **Paso por valor (predeterminado)**: Por defecto, Harbour pasa los argumentos por valor. Esto significa que la función recibe una copia del dato original. Si la función modifica el parámetro, l[...]
+*   **Paso por referencia**: Para modificar la variable original, puedes pasarla por referencia usando el operador `@` antes del nombre de la variable al llamar a la función. Dentro de la función, e[...]
 
 ```harbour
 FUNCTION ModificarValor( nValorPorReferencia, nValorPorCopia )
@@ -62,7 +62,7 @@ ModificarValor( @nA, nB ) // nA se pasa por referencia, nB por valor
 ? "Valores modificados:", nA, nB // Imprime: 110, 10
 ```
 
-*   **Parámetros opcionales**: Harbour permite llamar a una función con menos argumentos de los declarados. Los parámetros no recibidos contendrán `NIL`. La función `PCOUNT()` se puede usar para saber cuántos argumentos se pasaron realmente.
+*   **Parámetros opcionales**: Harbour permite llamar a una función con menos argumentos de los declarados. Los parámetros no recibidos contendrán `NIL`. La función `PCOUNT()` se puede usar para [...]
 
 ```harbour
 FUNCTION Mensaje( cTexto, cTitulo )
@@ -117,9 +117,11 @@ Harbour incluye un rico conjunto de funciones integradas que proporcionan inform
     *   `"H"`: Hash
     *   `"B"`: Codeblock
     *   `"O"`: Objeto
+    *   `"S"`: Símbolo (Symbol)
+    *   `"P"`: Puntero (Pointer)
     *   `"U"`: Indefinido (`NIL`)
 
-*   **`PROCNAME( [nNivel] )`**: Devuelve el nombre de la función o procedimiento actual. Si se proporciona un nivel, puede inspeccionar la pila de llamadas para saber qué función llamó a la actual. Es una herramienta invaluable para la depuración y el registro de errores.
+*   **`PROCNAME( [nNivel] )`**: Devuelve el nombre de la función o procedimiento actual. Si se proporciona un nivel, puede inspeccionar la pila de llamadas para saber qué función llamó a la actual[...]
 
 ```harbour
 FUNCTION MiRutina( xParametro )
@@ -144,4 +146,36 @@ RETURN NIL
 MiRutina( "Hola" )
 MiRutina( 123.45 )
 MiRutina( .T. )
+```
+
+A continuación se muestran ejemplos para los tipos `Symbol` y `Pointer`, que son más avanzados.
+
+```harbour
+// Ejemplo de VALTYPE() con Symbol y Pointer
+
+FUNCTION DevolverNumero()
+RETURN 42
+
+PROCEDURE Principal()
+   LOCAL pFunc // Puntero a función
+   LOCAL symVar // Símbolo
+
+   // --- Ejemplo con Puntero (Pointer) ---
+   // Se asigna una referencia (puntero) a la función DevolverNumero()
+   pFunc := @DevolverNumero()
+
+   ? "El tipo de pFunc es:", VALTYPE( pFunc ) // Imprime: P
+   ? "Ejecutando el puntero:", EVAL( pFunc )   // Imprime: 42
+
+   ?
+   
+   // --- Ejemplo con Símbolo (Symbol) ---
+   // Un símbolo representa un identificador. Se usa en funciones avanzadas.
+   // Aquí creamos un símbolo a partir del nombre de una variable.
+   symVar := hb_SymbolGet( "pFunc" )
+   
+   ? "El tipo de symVar es:", VALTYPE( symVar ) // Imprime: S
+   ? "Nombre del símbolo:", hb_SymbolName( symVar ) // Imprime: PFUNC
+   
+RETURN
 ```
