@@ -98,13 +98,10 @@
 
 # Capítulo 12: Temas avanzados
 
-* ### Programación multihilo.
-
-* ### Desarrollo de aplicaciones web con `hbhttpd`.
-
-* ### Uso del Garbage Collector de Harbour.
-
-* ### Integración de código C y librerías externas.
+* [Programación multihilo.](capitulo12.md#programación-multihilo)
+* [Desarrollo de aplicaciones web con `hbhttpd`.](capitulo12.md#desarrollo-de-aplicaciones-web-con-hbhttpd)
+* [Uso del Garbage Collector de Harbour.](capitulo12.md#uso-del-garbage-collector-de-harbour)
+* [Integración de código C y librerías externas.](capitulo12.md#integración-de-código-c-y-librerías-externas)
 
 ---
 
