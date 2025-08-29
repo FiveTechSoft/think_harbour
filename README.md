@@ -21,13 +21,10 @@
 
 # Capítulo 3: Funciones
 
-* ### Procedimientos (`PROCEDURE`) vs. Funciones (`FUNCTION`).
-
-* ### Parámetros y argumentos.
-
-* ### Funciones de entrada/salida (E/S).
-
-* ### Funciones de utilidad (`VALTYPE()`, `PROCNAME()`).
+* [Procedimientos (`PROCEDURE`) vs. Funciones (`FUNCTION`).](capitulo3.md#procedimientos-procedure-vs-funciones-function)
+* [Parámetros y argumentos.](capitulo3.md#parámetros-y-argumentos)
+* [Funciones de entrada/salida (E/S).](capitulo3.md#funciones-de-entradasalida-es)
+* [Funciones de utilidad (`VALTYPE()`, `PROCNAME()`).](capitulo3.md#funciones-de-utilidad-valtype-procname)
 
 ---
 
