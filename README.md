@@ -237,9 +237,9 @@
 
 # Capítulo 8: Manejo de errores y depuración
 
-* [Tipos de errores: de sintaxis, lógicos y de tiempo de ejecución.](capitulo8.md#tipos-de-errores-de-sintaxis-lógicos-y-de-tiempo-de-ejecución)
-* [Sentencias `ERROR HANDLER` y `ON ERROR`.](capitulo8.md#sentencias-error-handler-y-on-error)
-* [Uso del depurador y herramientas de rastreo.](capitulo8.md#uso-del-depurador-y-herramientas-de-rastreo)
+* [Tipos de errores: de sintaxis, lógicos y de tiempo de ejecución.](capitulo8.md#tipos-de-errores)
+* [Sentencias `ERROR HANDLER` y `ON ERROR`.](capitulo8.md#manejo-de-errores-tradicional-on-error)
+* [Uso del depurador y herramientas de rastreo.](capitulo8.md#depuración-y-herramientas-de-rastreo)
 
 ---
 
@@ -262,18 +262,18 @@
 
 # Capítulo 11: Librerías y paquetes externos
 
-* [El sistema de construcción `hbmk2`.](capitulo11.md#el-sistema-de-construcción-hbmk2)
-* [Librerías `contrib` populares.](capitulo11.md#librerías-contrib-populares)
-* [Manipulación de archivos XML y JSON.](capitulo11.md#manipulación-de-archivos-xml-y-json)
+* [El sistema de construcción `hbmk2`.](capitulo11.md#1-el-sistema-de-construcción-hbmk2)
+* [Librerías `contrib` populares.](capitulo11.md#2-librerías-contrib-populares)
+* [Manipulación de archivos XML y JSON.](capitulo11.md#3-manipulación-de-archivos-xml-y-json)
 
 ---
 
 # Capítulo 12: Temas avanzados
 
-* [Programación multihilo.](capitulo12.md#programación-multihilo)
-* [Desarrollo de aplicaciones web con `hbhttpd`.](capitulo12.md#desarrollo-de-aplicaciones-web-con-hbhttpd)
-* [Uso del Garbage Collector de Harbour.](capitulo12.md#uso-del-garbage-collector-de-harbour)
-* [Integración de código C y librerías externas.](capitulo12.md#integración-de-código-c-y-librerías-externas)
+* [Programación multihilo.](capitulo12.md#1-programación-multihilo-multithreading)
+* [Desarrollo de aplicaciones web con `hbhttpd`.](capitulo12.md#2-desarrollo-de-aplicaciones-web-con-hbhttpd)
+* [Uso del Garbage Collector de Harbour.](capitulo12.md#3-uso-del-garbage-collector-gc-de-harbour)
+* [Integración de código C y librerías externas.](capitulo12.md#4-integración-de-código-c-y-librerías-externas)
 
 ---
 
@@ -288,68 +288,54 @@
 
 # Capítulo 14: El sistema de datos de Harbour (`The Harbour item`)
 
-* ### El `item`: el contenedor de datos universal de Harbour.
-
-* ### La API del `item`: funciones para manipular valores a nivel de C.
-
-* ### Valores escalares: manejo de tipos de datos básicos.
-
-* ### Manejo de `Arrays` y `Hashes`: estructura y operaciones de colecciones complejas.
-
-* ### `Codeblocks`: el tipo de dato para código ejecutable.
-
-* ### `Classes and Objects`: la implementación de la programación orientada a objetos.
-
-* ### Punteros y símbolos: referencias a variables y funciones.
+* [El `item`: el contenedor de datos universal de Harbour.](capitulo14.md#el-item-el-contenedor-de-datos-universal-de-harbour)
+* [La API del `item`: funciones para manipular valores a nivel de C.](capitulo14.md#la-api-del-item-funciones-para-manipular-valores-a-nivel-de-c)
+* [Valores escalares: manejo de tipos de datos básicos.](capitulo14.md#valores-escalares-manejo-de-tipos-de-datos-básicos)
+* [Manejo de `Arrays` y `Hashes`: estructura y operaciones de colecciones complejas.](capitulo14.md#manejo-de-arrays-y-hashes-estructura-y-operaciones-de-colecciones-complejas)
+* [`Codeblocks`: el tipo de dato para código ejecutable.](capitulo14.md#codeblocks-el-tipo-de-dato-para-código-ejecutable)
+* [`Classes and Objects`: la implementación de la programación orientada a objetos.](capitulo14.md#classes-and-objects-la-implementación-de-la-programación-orientada-a-objetos)
+* [Punteros y símbolos: referencias a variables y funciones.](capitulo14.md#punteros-y-símbolos-referencias-a-variables-y-funciones)
 
 ---
 
 # Capítulo 15: El sistema extendido (`The Extend System`)
 
-* ### Interoperabilidad de C y Harbour: creación de funciones externas.
-
-* ### La Tabla de Símbolos Globales: cómo se resuelven las llamadas a funciones.
-
-* ### Tablas de símbolos locales: gestión del alcance de las variables.
-
-* ### Soporte `HRB`: la ejecución de binarios de Harbour independientes.
+* [Interoperabilidad de C y Harbour: creación de funciones externas.](capitulo15.md#interoperabilidad-de-c-y-harbour-creación-de-funciones-externas)
+* [La Tabla de Símbolos Globales: cómo se resuelven las llamadas a funciones.](capitulo15.md#la-tabla-de-símbolos-globales-cómo-se-resuelven-las-llamadas-a-funciones)
+* [Tablas de símbolos locales: gestión del alcance de las variables.](capitulo15.md#tablas-de-símbolos-locales-gestión-del-alcance-de-las-variables)
+* [Soporte `HRB`: la ejecución de binarios de Harbour independientes.](capitulo15.md#soporte-hrb-la-ejecución-de-binarios-de-harbour-independientes)
 
 ---
 
 # Capítulo 16: Gestión de memoria y arranque (`Booting Process`)
 
-* ### El proceso de arranque: desde el `main` de C hasta el primer PRG.
-
-* ### El gestor de memoria: asignación y liberación de memoria.
-
-* ### El `Garbage Collector`: automatización de la liberación de memoria.
+* [El proceso de arranque: desde el `main` de C hasta el primer PRG.](capitulo16.md#el-proceso-de-arranque-desde-el-main-de-c-hasta-el-primer-prg)
+* [El gestor de memoria: asignación y liberación de memoria.](capitulo16.md#el-gestor-de-memoria-asignación-y-liberación-de-memoria)
+* [El `Garbage Collector`: automatización de la liberación de memoria.](capitulo16.md#el-garbage-collector-automatización-de-la-liberación-de-memoria)
 
 ---
 
 # Capítulo 17: El preprocesador y los macros
 
-* ### Directivas de compilación: `#define`, `#include`, `#command`, `#xcommand`.
-
-* ### Creación de macros: sintaxis y uso avanzado.
+* [Directivas de compilación: `#define`, `#include`, `#command`, `#xcommand`.](capitulo17.md#directivas-de-compilación-define-include-command-xcommand)
+* [Creación de macros: sintaxis y uso avanzado.](capitulo17.md#creación-de-macros-sintaxis-y-uso-avanzado)
 
 ---
 
 # Capítulo 18: Depuración y estados inactivos
 
-* ### El depurador: herramientas para rastrear y resolver errores.
-
-* ### Sentencias de depuración: `PROCNAME()`, `VALTYPE()`, etc.
-
-* ### `Idle states`: manejo de tareas en segundo plano.
+* [El depurador: herramientas para rastrear y resolver errores.](capitulo18.md#el-depurador-herramientas-para-rastrear-y-resolver-errores)
+* [Sentencias de depuración: `PROCNAME()`, `VALTYPE()`, etc.](capitulo18.md#sentencias-de-depuración-procname-valtype-etc)
+* [`Idle states`: manejo de tareas en segundo plano.](capitulo18.md#idle-states-manejo-de-tareas-en-segundo-plano)
 
 ---
 
 # Capítulo 19: Los RDDs (`The RDDs`)
 
-* ### Controladores de bases de datos relacionales (`The RDDs`): la arquitectura de datos de Harbour.
+* [Controladores de bases de datos relacionales (`The RDDs`): la arquitectura de datos de Harbour.](capitulo19.md#controladores-de-bases-de-datos-relacionales-the-rdds-la-arquitectura-de-datos-de-harbour)
 
 ---
 
 # Capítulo 20: La biblioteca de tiempo de ejecución (`The runtime library`)
 
-* ### Funciones estándar integradas.
+* [Funciones estándar integradas.](capitulo20.md#funciones-estándar-integradas)
