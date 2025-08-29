@@ -46,15 +46,11 @@
 
 # Capítulo 6: Archivos y bases de datos
 
-* ### Manejo de archivos de bajo nivel (`FCREATE`, `FOPEN`, `FCLOSE`).
-
-* ### El formato de archivo `.dbf`.
-
-* ### Funciones de base de datos: `USE`, `APPEND BLANK`, `REPLACE`.
-
-* ### Índices: cómo acelerar búsquedas.
-
-* ### Sistemas de gestión de bases de datos relacionales (RDDs).
+* [Manejo de archivos de bajo nivel (`FCREATE`, `FOPEN`, `FCLOSE`).](capitulo6.md#manejo-de-archivos-de-bajo-nivel-fcreate-fopen-fclose)
+* [El formato de archivo `.dbf`.](capitulo6.md#el-formato-de-archivo-dbf)
+* [Funciones de base de datos: `USE`, `APPEND BLANK`, `REPLACE`.](capitulo6.md#funciones-de-base-de-datos-use-append-blank-replace)
+* [Índices: cómo acelerar búsquedas.](capitulo6.md#índices-cómo-acelerar-búsquedas)
+* [Sistemas de gestión de bases de datos relacionales (RDDs).](capitulo6.md#sistemas-de-gestión-de-bases-de-datos-relacionales-rdds)
 
 ---
 
