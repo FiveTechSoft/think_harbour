@@ -54,7 +54,7 @@
 
 ---
 
-# Capítulo 7: Clases y objetos
+[# Capítulo 7: Clases y objetos
 
 * ### Conceptos de OOP: clases, objetos, variables y métodos.
 
@@ -62,7 +62,7 @@
 
 * ### Instanciación de objetos.
 
-* ### Herencia.
+* ### Herencia.](https://github.com/FiveTechSoft/think_harbour/blob/main/README.md)
 
 ---
 
