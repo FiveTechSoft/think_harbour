@@ -114,6 +114,60 @@
 * [P-Code: the optimized intermediate language.](chapter13.md#p-code-the-optimized-intermediate-language)
 * [The stack: managing function calls and local variables.](chapter13.md#the-stack-managing-function-calls-and-local-variables)
 
+# Chapter 14: The Harbour Data System (The Harbour item)
+
+* [The `item`: Harbour's universal data container.](chapter14.md#the-item-harbours-universal-data-container)
+* [The `item` API: functions for manipulating values at the C level.](chapter14.md#the-item-api-functions-for-manipulating-values-at-the-c-level)
+* [Scalar values: handling basic data types.](chapter14.md#scalar-values-handling-basic-data-types)
+* [Handling `Arrays` and `Hashes`: structure and operations of complex collections.](chapter14.md#handling-arrays-and-hashes-structure-and-operations-of-complex-collections)
+* [`Codeblocks`: the data type for executable code.](chapter14.md#codeblocks-the-data-type-for-executable-code)
+* [`Classes and Objects`: the implementation of object-oriented programming.](chapter14.md#classes-and-objects-the-implementation-of-object-oriented-programming)
+* [Pointers and symbols: references to variables and functions.](chapter14.md#pointers-and-symbols-references-to-variables-and-functions)
+
+---
+
+# Chapter 15: The Extend System
+
+* [C and Harbour interoperability: creating external functions.](chapter15.md#c-and-harbour-interoperability-creating-external-functions)
+* [The Global Symbol Table: how function calls are resolved.](chapter15.md#the-global-symbol-table-how-function-calls-are-resolved)
+* [Local symbol tables: managing variable scope.](chapter15.md#local-symbol-tables-managing-variable-scope)
+* [`HRB` support: execution of independent Harbour binaries.](chapter15.md#hrb-support-execution-of-independent-harbour-binaries)
+
+---
+
+# Chapter 16: Memory Management and Booting Process
+
+* [The booting process: from C `main` to the first PRG.](chapter16.md#the-booting-process-from-c-main-to-the-first-prg)
+* [The memory manager: memory allocation and deallocation.](chapter16.md#the-memory-manager-memory-allocation-and-deallocation)
+* [The `Garbage Collector`: automating memory deallocation.](chapter16.md#the-garbage-collector-automating-memory-deallocation)
+
+---
+
+# Chapter 17: The Preprocessor and Macros
+
+* [Compilation directives: `#define`, `#include`, `#command`, `#xcommand`.](chapter17.md#compilation-directives-define-include-command-xcommand)
+* [Creating macros: advanced syntax and usage.](chapter17.md#creating-macros-advanced-syntax-and-usage)
+
+---
+
+# Chapter 18: Debugging and Idle States
+
+* [The debugger: tools for tracking and resolving errors.](chapter18.md#the-debugger-tools-for-tracking-and-resolving-errors)
+* [Debugging statements: `PROCNAME()`, `VALTYPE()`, etc.](chapter18.md#debugging-statements-procname-valtype-etc)
+* [`Idle states`: managing background tasks.](chapter18.md#idle-states-managing-background-tasks)
+
+---
+
+# Chapter 19: The RDDs (Replaceable Database Drivers)
+
+* [Relational Database Drivers (The RDDs): Harbour's data architecture.](chapter19.md#relational-database-drivers-the-rdds-harbours-data-architecture)
+
+---
+
+# Chapter 20: The Runtime Library
+
+* [Built-in standard functions.](chapter20.md#built-in-standard-functions)
+
 ---
 
 ## Versión en Español
