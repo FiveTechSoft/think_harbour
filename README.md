@@ -90,11 +90,9 @@
 
 # Capítulo 11: Librerías y paquetes externos
 
-* ### El sistema de construcción `hbmk2`.
-
-* ### Librerías `contrib` populares.
-
-* ### Manipulación de archivos XML y JSON.
+* [El sistema de construcción `hbmk2`.](capitulo11.md#el-sistema-de-construcción-hbmk2)
+* [Librerías `contrib` populares.](capitulo11.md#librerías-contrib-populares)
+* [Manipulación de archivos XML y JSON.](capitulo11.md#manipulación-de-archivos-xml-y-json)
 
 ---
 
