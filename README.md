@@ -107,13 +107,10 @@
 
 # Capítulo 13: El núcleo de la máquina virtual de Harbour
 
-* ### El compilador: el proceso de conversión de código fuente a P-Code.
-
-* ### La máquina virtual (VM): el motor de ejecución de Harbour.
-
-* ### P-Code: el lenguaje intermedio optimizado.
-
-* ### La pila (`The stack`): gestión de llamadas a funciones y variables locales.
+* [El compilador: el proceso de conversión de código fuente a P-Code.](capitulo13.md#el-compilador-el-proceso-de-conversión-de-código-fuente-a-p-code)
+* [La máquina virtual (VM): el motor de ejecución de Harbour.](capitulo13.md#la-máquina-virtual-vm-el-motor-de-ejecución-de-harbour)
+* [P-Code: el lenguaje intermedio optimizado.](capitulo13.md#p-code-el-lenguaje-intermedio-optimizado)
+* [La pila (`The stack`): gestión de llamadas a funciones y variables locales.](capitulo13.md#la-pila-the-stack-gestión-de-llamadas-a-funciones-y-variables-locales)
 
 ---
 
