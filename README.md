@@ -54,15 +54,12 @@
 
 ---
 
-[# Capítulo 7: Clases y objetos
+# Capítulo 7: Clases y objetos
 
-* ### Conceptos de OOP: clases, objetos, variables y métodos.
-
-* ### Creación de una clase en Harbour.
-
-* ### Instanciación de objetos.
-
-* ### Herencia.](https://github.com/FiveTechSoft/think_harbour/blob/main/README.md)
+* [Conceptos de OOP: clases, objetos, variables y métodos.](capitulo7.md#conceptos-de-oop-clases-objetos-variables-y-métodos)
+* [Creación de una clase en Harbour.](capitulo7.md#creación-de-una-clase-en-harbour)
+* [Instanciación de objetos.](capitulo7.md#instanciación-de-objetos)
+* [Herencia.](capitulo7.md#herencia)
 
 ---
 
