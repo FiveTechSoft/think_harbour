@@ -82,11 +82,9 @@
 
 # Capítulo 10: Conectividad y bases de datos avanzadas
 
-* ### Conexión a bases de datos SQL (ODBC, MySQL, PostgreSQL, SQLite).
-
-* ### Uso de las librerías `contrib` `hbmysql`, `hbpgsql`, `hbsqlit3`.
-
-* ### Conceptos de SQL: sentencias `SELECT`, `INSERT`, `UPDATE`, `DELETE`.
+* [Conexión a bases de datos SQL (ODBC, MySQL, PostgreSQL, SQLite).](capitulo10.md#conexión-a-bases-de-datos-sql-odbc-mysql-postgresql-sqlite)
+* [Uso de las librerías `contrib` `hbmysql`, `hbpgsql`, `hbsqlit3`.](capitulo10.md#uso-de-las-librerías-contrib-hbmysql-hbpgsql-hbsqlit3)
+* [Conceptos de SQL: sentencias `SELECT`, `INSERT`, `UPDATE`, `DELETE`.](capitulo10.md#conceptos-de-sql-sentencias-select-insert-update-delete)
 
 ---
 
