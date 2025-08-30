@@ -108,6 +108,15 @@ El alcance determina dónde es visible y accesible una variable.
     nNumero = 20  // Asignación a una variable existente
     ```
 
+*   **Operadores de Asignación Compuesta**: Estos operadores combinan una operación aritmética con asignación, proporcionando una forma más concisa de modificar el valor de una variable.
+    ```harbour
+    LOCAL nValor := 10
+    nValor += 5   // Equivalente a: nValor = nValor + 5 (resultado: 15)
+    nValor -= 3   // Equivalente a: nValor = nValor - 3 (resultado: 12)
+    nValor *= 2   // Equivalente a: nValor = nValor * 2 (resultado: 24)
+    nValor /= 4   // Equivalente a: nValor = nValor / 4 (resultado: 6)
+    ```
+
 *   **Operadores Aritméticos**: `+` (suma), `-` (resta), `*` (multiplicación), `/` (división), `%` (módulo), `^` o `**` (potencia).
 *   **Operadores de Cadenas**: `+` (concatena), `-` (concatena eliminando espacios finales).
 *   **Operadores de Fechas**: `+` (suma días), `-` (resta días o calcula diferencia entre fechas).

@@ -108,6 +108,15 @@ The scope determines where a variable is visible and accessible.
     nNumber = 20  // Assignment to an existing variable
     ```
 
+*   **Compound Assignment Operators**: These operators combine an arithmetic operation with assignment, providing a more concise way to modify a variable's value.
+    ```harbour
+    LOCAL nValue := 10
+    nValue += 5   // Equivalent to: nValue = nValue + 5 (result: 15)
+    nValue -= 3   // Equivalent to: nValue = nValue - 3 (result: 12)
+    nValue *= 2   // Equivalent to: nValue = nValue * 2 (result: 24)
+    nValue /= 4   // Equivalent to: nValue = nValue / 4 (result: 6)
+    ```
+
 *   **Arithmetic Operators**: `+` (addition), `-` (subtraction), `*` (multiplication), `/` (division), `%` (modulo), `^` or `**` (power).
 *   **String Operators**: `+` (concatenate), `-` (concatenate removing trailing spaces).
 *   **Date Operators**: `+` (add days), `-` (subtract days or calculate difference between dates).
